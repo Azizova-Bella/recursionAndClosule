@@ -18,6 +18,9 @@ return num * sumOfFactorial(num - 1)
 console.log(sumOfFactorial(5)); // Результат: 120
 ```
 
+(![image](https://github.com/user-attachments/assets/648b83ed-1eed-4834-a104-a74a1ae9289b)
+)
+
 ### Пример: Числа Фибоначчи
 ```javascript
 function fibonacci(n) {
