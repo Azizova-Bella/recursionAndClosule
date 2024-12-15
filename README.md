@@ -1,5 +1,6 @@
 # Рекурсия и Замыкания в JavaScript
-<img src"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Frecursion-explained-understand-you-must-first-ignacio-chitnisky&psig=AOvVaw3v6MOG298zsY7u24etjo7_&ust=1734319830435000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICYhYfsqIoDFQAAAAAdAAAAABAE">
+![Recursion Diagram](https://raw.githubusercontent.com/username/repository/main/images/recursion_diagram.png)
+
 
 ## Рекурсия
 
