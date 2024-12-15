@@ -1,7 +1,7 @@
 # recursionAndClosule
 # Рекурсия и Замыкания в JavaScript
 
-![Изображение: Рекурсия и Замыкания]([An_illustrative_image_showing_the_concept_of_recur.png](https://www.google.com/imgres?q=recursion&imgurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fcontent%2Fimages%2F2023%2F01%2Frecursion.png&imgrefurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fhow-recursion-works-recursion-vs-iteration%2F&docid=fFo8ZLd3Sq-85M&tbnid=PxXbArZbnmHNLM&vet=12ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA..i&w=1081&h=611&hcb=2&ved=2ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA))
+![Изображение: Рекурсия и Замыкания](https://www.google.com/imgres?q=recursion&imgurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fcontent%2Fimages%2F2023%2F01%2Frecursion.png&imgrefurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fhow-recursion-works-recursion-vs-iteration%2F&docid=fFo8ZLd3Sq-85M&tbnid=PxXbArZbnmHNLM&vet=12ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA..i&w=1081&h=611&hcb=2&ved=2ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA)
 
 ## Рекурсия
 
