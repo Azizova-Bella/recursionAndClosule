@@ -1,5 +1,5 @@
 # Рекурсия и Замыкания в JavaScript
-![Recursion Diagram](https://github.com/user-attachments/assets/47013cb1-7b2e-4c9c-9f2d-7994c071702a
+![Recursion Diagram](https://github.com/user-attachments/assets/47013cb1-7b2e-4c9c-9f2d-7994c071702a)
 
 
 
