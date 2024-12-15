@@ -1,6 +1,6 @@
 # Рекурсия и Замыкания в JavaScript
 ![Recursion Diagram](https://github.com/user-attachments/assets/47013cb1-7b2e-4c9c-9f2d-7994c071702a
-)
+
 
 
 ## Рекурсия
@@ -18,8 +18,8 @@ return num * sumOfFactorial(num - 1)
 console.log(sumOfFactorial(5)); // Результат: 120
 ```
 
-(![image](https://github.com/user-attachments/assets/648b83ed-1eed-4834-a104-a74a1ae9289b)
-)
+![image](https://github.com/user-attachments/assets/648b83ed-1eed-4834-a104-a74a1ae9289b)
+
 
 ### Пример: Числа Фибоначчи
 ```javascript
