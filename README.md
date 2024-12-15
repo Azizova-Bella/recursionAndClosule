@@ -1,7 +1,7 @@
 # recursionAndClosule
 # Рекурсия и Замыкания в JavaScript
 
-![Изображение: Рекурсия и Замыкания](An_illustrative_image_showing_the_concept_of_recur.png)
+![Изображение: Рекурсия и Замыкания]([An_illustrative_image_showing_the_concept_of_recur.png](https://www.google.com/imgres?q=recursion&imgurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fcontent%2Fimages%2F2023%2F01%2Frecursion.png&imgrefurl=https%3A%2F%2Fwww.masaischool.com%2Fblog%2Fhow-recursion-works-recursion-vs-iteration%2F&docid=fFo8ZLd3Sq-85M&tbnid=PxXbArZbnmHNLM&vet=12ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA..i&w=1081&h=611&hcb=2&ved=2ahUKEwimvtn66qiKAxXYGRAIHSLuDwoQM3oECEUQAA))
 
 ## Рекурсия
 
@@ -9,15 +9,13 @@
 
 ### Пример: Факториал
 ```javascript
-function factorial(n) {
-    if (n === 0) {
-        return 1; // Базовый случай
-    } else {
-        return n * factorial(n - 1); // Рекурсивный случай
-    }
-}
 
-console.log(factorial(5)); // Результат: 120
+function sumOfFactorial(num){
+    if (num == 0) return 1;
+return num * sumOfFactorial(num - 1)
+
+}
+console.log(sumOfFactorial(5)); // Результат: 120
 ```
 
 ### Пример: Числа Фибоначчи
@@ -46,55 +44,41 @@ console.log(fibonacci(6)); // Результат: 8
 
 ### Пример: Счётчик
 ```javascript
-function createCounter() {
-    let count = 0;
-    return function() {
-        count += 1;
-        return count;
-    };
-}
 
-const counter = createCounter();
-console.log(counter()); // Результат: 1
-console.log(counter()); // Результат: 2
-console.log(counter()); // Результат: 3
+function createCounter(){
+    let cnt = 0;
+    return () => {
+        return cnt ++
+    }
+}
+ let adder = createCounter ()
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());
+ console.log(adder());  // Результат: 10
 ```
 
 ### Пример: Умножение с замыканием
 ```javascript
-function multiplier(factor) {
-    return function(number) {
-        return number * factor;
-    };
-}
-
-const double = multiplier(2);
-console.log(double(5)); // Результат: 10
-
-const triple = multiplier(3);
-console.log(triple(5)); // Результат: 15
+function multiplwOfNum (num1){
+    let cnt = 0;
+     return (num2) =>{
+         cnt ++
+         return num1 * num2
+     }
+ }
+ let Multiple = multiplwOfNum (5)
+ console.log(Multiple(3));   // Результат: 15
 ```
 
-### Дополнительный пример: Кэширование результатов
-Замыкания могут быть полезны для оптимизации производительности с помощью кэширования результатов функции.
-```javascript
-function memoize(fn) {
-    const cache = {};
-    return function(arg) {
-        if (cache[arg] !== undefined) {
-            return cache[arg];
-        } else {
-            const result = fn(arg);
-            cache[arg] = result;
-            return result;
-        }
-    };
-}
 
-const square = memoize(x => x * x);
-console.log(square(4)); // Результат: 16
-console.log(square(4)); // Результат из кэша: 16
-```
 
 ### Полезные советы для использования замыканий
 - Избегайте чрезмерного использования замыканий, чтобы предотвратить утечки памяти.
